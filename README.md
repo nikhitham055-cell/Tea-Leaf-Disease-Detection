@@ -100,7 +100,7 @@ You can also specify the model and other training parameters.
 After training, run:
 
 ```bash
-python -m streamlit run run.py
+python -m streamlit run app.py
 ```
 
 If the application requires a specific trained model/checkpoint, make sure the checkpoint is available in the expected location.
