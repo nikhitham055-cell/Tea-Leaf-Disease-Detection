@@ -2,7 +2,7 @@
 
 A deep learning-based tea leaf disease detection system that classifies tea leaf images into different disease categories using a Convolutional Neural Network (CNN).
 
-## 🌿 Detected Classes
+## Detected Classes
 
 The model currently detects 7 classes:
 
@@ -14,7 +14,7 @@ The model currently detects 7 classes:
 * Red Leaf Spot
 * White Spot
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * Python
 * PyTorch
@@ -24,7 +24,7 @@ The model currently detects 7 classes:
 * Albumentations
 * Streamlit
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 Tea_Leaf_Disease_Model-main/
@@ -59,7 +59,7 @@ Tea_Leaf_Disease_Model-main/
 └── .gitignore
 ```
 
-## 📊 Dataset
+## Dataset
 
 The dataset contains 772 tea leaf images distributed across 7 classes.
 
@@ -71,7 +71,7 @@ The dataset is divided into:
 
 Image augmentation techniques such as rotation, horizontal flipping, brightness/contrast adjustment, CLAHE, and sharpening are used during training.
 
-## 🚀 Installation
+## Installation
 
 Clone the repository and create a virtual environment:
 
@@ -85,7 +85,7 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-## 🧠 Train the Model
+## Train the Model
 
 To train the Custom CNN model:
 
@@ -95,7 +95,7 @@ python run.py --data-dir DataSetFolder
 
 You can also specify the model and other training parameters.
 
-## 🌐 Run the Streamlit Application
+## Run the Streamlit Application
 
 After training, run:
 
@@ -105,7 +105,7 @@ python -m streamlit run run.py
 
 If the application requires a specific trained model/checkpoint, make sure the checkpoint is available in the expected location.
 
-## 📈 Model Performance
+## Model Performance
 
 The model is evaluated using:
 
@@ -117,7 +117,7 @@ The model is evaluated using:
 
 Training results and model checkpoints are saved in the configured result directory.
 
-## 🔮 Future Improvements
+## Future Improvements
 
 * Improve classification accuracy with a larger dataset
 * Add more tea leaf disease classes
@@ -125,9 +125,3 @@ Training results and model checkpoints are saved in the configured result direct
 * Improve model inference speed
 * Add recommendations for disease management
 
-## 👩‍💻 Author
-
-Nikhitha Mohandas
-
-B.Tech Computer Science Engineering
-Adi Shankara Institute of Engineering and Technology
